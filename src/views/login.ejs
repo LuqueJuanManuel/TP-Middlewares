@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Document</title>
+	<link rel="stylesheet" href="/css/app.css">
+<body>
+<h1>Login</h1>
+<hr>
+	<nav>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/products">Productos</a></li>
+			<li><a href="/products/detail">Detalle</a></li>
+			<li><a href="/users/register">Registrate</a></li>
+			<li><a href="/users/login">Inicia sesion</a></li>
+		</ul>
+	</nav>
+    <main class="container">
+		<section class="row">
+			<article class="col-12 col-md-8 mx-auto">
+				<div class="card shadow">
+					<div class="card-body">
+                        <form action="/admin" method="GET">
+							<!-- bootstrap Form create -->
+							<div class="mb-3">
+								<label for="admin" class="form-label">Administrador</label>
+								<input type="text" class="form-control" id="admin" name="admin" placeholder="ingresa tu nombre">
+							  </div>
+							  <div class="mb-3">
+								<button class="btn btn-primary">Ingresar</button>
+							  </div>
+						</form>
+					</div>
+				</div>
+			</article>
+		</section>
+	</main>
+
+</body>
+</html>
